@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PeaShooter</string>
+    <string name="hello_world">Throwing Peas at random strangers since 1986.</string>
+    <string name="login">Login</string>
+    <string name="newuser">New User</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="rememberme">Remember Me</string>
+    <string name="signin">Sign In</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="fullname">Name</string>
+    <string name="email">Email</string>
+
+
+
+</resources>
