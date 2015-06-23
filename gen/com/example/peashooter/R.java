@@ -1071,7 +1071,10 @@ containing a value of this type.
         public static final int ic_launcher=0x7f020057;
     }
     public static final class id {
+        public static final int EmailVal=0x7f050046;
+        public static final int FullNameVal=0x7f050045;
         public static final int LinearLayout1=0x7f05003c;
+        public static final int PassWordVal=0x7f050047;
         public static final int action_bar=0x7f05001c;
         public static final int action_bar_activity_content=0x7f050015;
         public static final int action_bar_container=0x7f05001b;
@@ -1086,8 +1089,10 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
-        public static final int button1=0x7f050043;
-        public static final int button2=0x7f050044;
+        public static final int buttonCancel=0x7f05004c;
+        public static final int buttonNewUser=0x7f050044;
+        public static final int buttonOK=0x7f05004b;
+        public static final int buttonSignin=0x7f050043;
         public static final int checkBox1=0x7f050042;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
@@ -1095,15 +1100,15 @@ containing a value of this type.
         public static final int dialog=0x7f05000e;
         public static final int disableHome=0x7f050008;
         public static final int dropdown=0x7f05000f;
-        public static final int editText1=0x7f050045;
-        public static final int editText2=0x7f050046;
-        public static final int editText3=0x7f050047;
+        public static final int editTextEmail=0x7f05004a;
+        public static final int editTextFullName=0x7f050049;
         public static final int editTextPassword=0x7f050041;
-        public static final int editTextPersonName=0x7f05003f;
+        public static final int editTextUserName=0x7f05003f;
         public static final int edit_query=0x7f050030;
         public static final int end=0x7f050013;
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002c;
+        public static final int formTypeLabel=0x7f050048;
         public static final int home=0x7f050014;
         public static final int homeAsUp=0x7f050005;
         public static final int icon=0x7f05002a;
@@ -1196,7 +1201,8 @@ containing a value of this type.
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_main=0x7f030018;
         public static final int activity_register=0x7f030019;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001a;
+        public static final int activity_welcome=0x7f03001a;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1240,17 +1246,19 @@ containing a value of this type.
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
         public static final int app_name=0x7f0a000d;
-        public static final int cancel=0x7f0a0016;
+        public static final int cancel=0x7f0a0017;
         public static final int email=0x7f0a0018;
-        public static final int fullname=0x7f0a0017;
+        public static final int fullname=0x7f0a0012;
         public static final int hello_world=0x7f0a000e;
         public static final int login=0x7f0a000f;
         public static final int newuser=0x7f0a0010;
-        public static final int ok=0x7f0a0015;
-        public static final int password=0x7f0a0012;
-        public static final int rememberme=0x7f0a0013;
-        public static final int signin=0x7f0a0014;
+        public static final int ok=0x7f0a0016;
+        public static final int password=0x7f0a0013;
+        public static final int rememberme=0x7f0a0014;
+        public static final int signin=0x7f0a0015;
+        public static final int title_activity_welcome=0x7f0a001a;
         public static final int username=0x7f0a0011;
+        public static final int welcome=0x7f0a0019;
     }
     public static final class style {
         /** 

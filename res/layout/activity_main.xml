@@ -24,7 +24,7 @@
     
 
     <EditText
-        android:id="@+id/editTextPersonName"
+        android:id="@+id/editTextUserName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -59,17 +59,32 @@
         />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/buttonSignin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="@string/signin" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonNewUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="@string/newuser" />
+
+    <TextView
+        android:id="@+id/FullNameVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/EmailVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/PassWordVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

@@ -6,14 +6,14 @@
     <string name="login">Login</string>
     <string name="newuser">New User</string>
     <string name="username">Username</string>
+    <string name="fullname">Full Name</string>
     <string name="password">Password</string>
     <string name="rememberme">Remember Me</string>
     <string name="signin">Sign In</string>
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
-    <string name="fullname">Name</string>
     <string name="email">Email</string>
-
-
+    <string name="welcome">Welcome!</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
 
 </resources>
