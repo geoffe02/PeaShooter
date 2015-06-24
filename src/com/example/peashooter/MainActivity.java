@@ -17,8 +17,8 @@ import android.content.Context;
 public class MainActivity extends Activity {
 	public static final int CREATEUSER = 0; 
 	public static final int WELCOMEUSER = 1;
-	public String loginName;
-	public String loginPass;
+	public String loginName = "";
+	public String loginPass = "";
 	
 
 
@@ -45,7 +45,8 @@ public class MainActivity extends Activity {
         		{
         			// Checking for empty fields
         			
-        			
+        			String enteredName = loginName;
+        			String enteredPass = loginPass;
         			
         			EditText userName = (EditText) findViewById(R.id.editTextUserName);
         			EditText passWord = (EditText) findViewById(R.id.editTextPassword);
@@ -58,10 +59,20 @@ public class MainActivity extends Activity {
         				Toast toast = Toast.makeText(context, text, duration);
         				toast.show();
         			}
-        			else if ( (fieldsMatch(loginName, userName.toString()) && fieldsMatch(loginPass, passWord.toString())) )
+        			else if  (!fieldsMatch(enteredName, userName.getText().toString()))
+        					
         			{
         				Context context = getApplicationContext();
-        				CharSequence text = "Invalid Credentials";
+        				CharSequence text = "Invalid Credentials Name";
+        				int duration = Toast.LENGTH_SHORT;
+        				    
+        				Toast toast = Toast.makeText(context, text, duration);
+        				toast.show();
+        			}
+        			else if (!fieldsMatch(enteredPass, passWord.getText().toString())) 
+        			{
+        				Context context = getApplicationContext();
+        				CharSequence text = "Invalid Credentials Pass";
         				int duration = Toast.LENGTH_SHORT;
         				    
         				Toast toast = Toast.makeText(context, text, duration);
@@ -95,14 +106,20 @@ public class MainActivity extends Activity {
     }
     
     public boolean fieldsMatch(String Text1, String Text2) {
-        return (Text1 == Text2);
+        return Text1.equals(Text2);
     }
     
     public void onActivityResult(int requestCode, int resultCode, Intent data)
     {
     	if (resultCode == RegisterActivity.CANCEL_PRESSED)
     	{
-    		System.out.println("CANCEL PRESSED");
+    		//System.out.println("CANCEL PRESSED");
+			Context context = getApplicationContext();
+			CharSequence text = "Cancelled";
+			int duration = Toast.LENGTH_SHORT;
+			    
+			Toast toast = Toast.makeText(context, text, duration);
+			toast.show();
     	}
     	else
     	{
