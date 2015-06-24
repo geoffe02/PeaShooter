@@ -13,6 +13,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.content.Context;
+import java.util.ArrayList;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class MainActivity extends Activity {
 	public static final int CREATEUSER = 0; 
